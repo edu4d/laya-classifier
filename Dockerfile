@@ -61,4 +61,4 @@ USER laya
 WORKDIR /home/laya
 
 ENTRYPOINT ["python", "/opt/laya/entrypoint.py"]
-CMD ["python", "/opt/laya/examples/quickstart.py"]
+CMD ["laya-serve"]
